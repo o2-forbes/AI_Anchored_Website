@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Short and fair terms that describe what you can expect from Anchored.">
+<meta name="theme-color" content="#FBF8EF">
+<title>Terms of service — Anchored</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand" aria-label="Anchored home">
+      <img class="brand-mark" src="anchored-logo.png" alt="Anchored">
+      <span class="brand-name">Anchored</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#how-it-works" class="nav-link">How it works</a>
+      <a href="index.html#principles" class="nav-link">Principles</a>
+      <a href="index.html#privacy" class="nav-link">Privacy</a>
+      <a href="index.html#waitlist" class="btn btn-primary">Join the waitlist</a>
+    </div>
+  </div>
+</nav>
+
+<section class="subpage-hero">
+  <div class="container subpage-hero-inner">
+    <div class="eyebrow">Terms of service</div>
+    <h1 class="subpage-title">Short. <em>And fair.</em></h1>
+    <p class="subpage-lead">These terms describe what you can expect from Anchored, and what we expect from you.</p>
+  </div>
+</section>
+
+<section class="content">
+  <div class="container narrow">
+
+    <p class="muted-note" style="margin-top: 0; padding-top: 0; border-top: none;">Last updated: 1 April 2026</p>
+
+    <h2>Using Anchored</h2>
+    <p>By installing or using the Anchored app, or signing in to a website account, you agree to these terms. If you do not agree, please do not use the app.</p>
+
+    <h2>What we provide</h2>
+    <p>Anchored is a screen-time intervention tool. We provide it as-is, with no warranty that it will be free of bugs or downtime. We will do our best to keep it running, fix issues quickly, and notify you of any major changes.</p>
+
+    <h2>What you must not do</h2>
+    <p>When using Anchored, you agree not to:</p>
+    <ul>
+      <li>Reverse-engineer, decompile, or attempt to extract source code from the app.</li>
+      <li>Use the app to harass, harm, or restrict another person’s access to their own device without their consent.</li>
+      <li>Use the app in a way that interferes with the service for other users.</li>
+      <li>Attempt to access another user’s account or data.</li>
+    </ul>
+
+    <h2>Your account</h2>
+    <p>If you create an account, you are responsible for keeping your sign-in credentials safe. If you suspect someone else has accessed your account, contact us immediately at <a href="mailto:privacy@anchored.app" style="color: var(--accent); border-bottom: 1px solid currentColor;">privacy@anchored.app</a>.</p>
+    <p>You can delete your account at any time from Settings &rarr; Account &rarr; Delete account, or by emailing us. Deletion is permanent and removes all account data within 30 days.</p>
+
+    <h2>Pricing</h2>
+    <p>Anchored is free during waitlist and early access. If we ever introduce paid features, the existing free version will remain free. We will give at least 30 days’ notice before any pricing change takes effect for current users.</p>
+
+    <h2>Termination</h2>
+    <p>We may suspend or terminate your account if you breach these terms in a serious way. We will let you know in advance unless doing so would risk further harm. You can stop using Anchored at any time without penalty.</p>
+
+    <h2>Liability</h2>
+    <p>Anchored is a tool to support healthy phone use. It is not medical advice, not therapy, and not a substitute for professional help with addiction or mental health. To the maximum extent permitted by law, we are not liable for indirect or consequential damages arising from your use of the app.</p>
+
+    <h2>Changes to these terms</h2>
+    <p>If we update these terms in a material way, we will publish the new version here and email anyone with an account at least 30 days in advance. Your continued use of the app after the change date means you accept the new terms.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about these terms? Email <a href="mailto:hello@anchored.app" style="color: var(--accent); border-bottom: 1px solid currentColor;">hello@anchored.app</a>.</p>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <a href="index.html" class="brand" aria-label="Anchored">
+          <img class="brand-mark" src="anchored-logo.png" alt="Anchored">
+          <span class="brand-name">Anchored</span>
+        </a>
+        <p class="footer-brand-text">A quiet tool for getting the hours social media takes from you. Built independently. No investors. No ads.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="index.html#principles">Principles</a>
+        <a href="index.html#privacy">Privacy</a>
+        <a href="index.html#waitlist">Waitlist</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="why-anchored.html">Why Anchored exists</a>
+        <a href="what-we-dont-collect.html">What we don’t collect</a>
+        <a href="press-kit.html">Press kit</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy-policy.html">Privacy policy</a>
+        <a href="terms.html">Terms of service</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Anchored</span>
+      <span>Built with care · Designed to be forgotten</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  const onScroll = () => {
+    if (window.scrollY > 12) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+
+</body>
+</html>
